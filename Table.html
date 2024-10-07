@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dddddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Score Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Average Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>87.67</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>92</td>
+                <td>89</td>
+                <td>95</td>
+                <td>92.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>177</td>
+                <td>179</td>
+                <td>183</td>
+                <td>179.84</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
